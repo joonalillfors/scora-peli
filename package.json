@@ -1,0 +1,33 @@
+{
+  "name": "scora-peli",
+  "version": "0.1.0",
+  "private": true,
+  "main": "index.js",
+  "dependencies": {
+    "next": "^5.1.0",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "react-simple-maps": "^0.12.1"
+  },
+  "scripts": {
+    "start": "next start",
+    "build": "next build",
+    "test": "echo \"Error: no test suite\" && exit 1",
+    "dev": "next"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
